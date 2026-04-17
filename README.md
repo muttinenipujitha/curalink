@@ -233,26 +233,7 @@ cd frontend && npm start
 
 ---
 
-## 🌐 Free Deployment
 
-### Backend → Render.com
-
-1. Push code to GitHub
-2. Go to **render.com** → New Web Service
-3. Connect your repo → set root to `backend`
-4. Build command: `npm install`
-5. Start command: `npm start`
-6. Add environment variables in the Render dashboard (same as your `.env`)
-
-### Frontend → Vercel
-
-1. Push code to GitHub
-2. Go to **vercel.com** → Import project
-3. Set root to `frontend`
-4. Add environment variable: `REACT_APP_API_URL=https://your-render-url.onrender.com`
-5. Deploy
-
----
 
 ## 📁 Project Structure
 
